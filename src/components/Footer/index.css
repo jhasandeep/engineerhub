@@ -1,0 +1,205 @@
+.bg-footer{
+
+    background-color: #002a36;
+    color: white;
+}
+
+.footer-rows{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+    margin-bottom: 20px;
+
+
+}
+
+.footer-row:first-child, .footer-row:nth-child(2) {
+    border-right: 1px solid grey;
+    flex-basis: 32%;
+    padding: 0 20px;
+    text-align: left;
+    text-align-last: left;
+}
+
+
+
+.footer-row{
+    flex-basis: 25%;
+    text-align-last: left;
+    
+}
+
+.textfooter {
+    font-size: 1.6rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: auto;
+    letter-spacing: -1.8px;
+    line-height: 3.5rem;
+    position: relative;
+}
+
+
+.footertextaboutus {
+    color: #c1c1c1;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+.footerinnertext {
+    align-items: center;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 300;
+    justify-content: center;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+
+.social-media-icons{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: flex;
+
+
+}
+
+
+
+
+
+.footericon {
+    color: #fff;
+    margin: 10% 1.3%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+
+
+.foot-btn {
+    justify-content: space-around;
+}
+
+
+.footer-btn-con{
+    width: 50%;
+}
+
+
+
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+.copyright, .footer-btn {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-size: .9rem;
+    justify-content: center;
+}
+
+.footer-btn {
+    background-color: #1c85e8;
+    border: none;
+    border-radius: 6px;
+    height: 32px;
+    width: 96px;
+}
+
+
+
+
+.sub-footer{
+    display: flex ;
+    flex-direction: block;
+    
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+
+    .textfooter{
+        font-size: 1.6rem;
+    }
+
+    .footerinnertext, .footertextaboutus {
+        font-size: .8rem;
+    }
+
+
+    .footericon {
+        width: 0;
+    }
+    
+    .foot-btn {
+        flex-wrap: nowrap;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 426px){
+    .footer-row:first-child, .footer-row:nth-child(2) {
+        border: none;
+        flex-basis: 100%;
+        text-align-last: center;
+    }
+
+    .textfooter {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: -1.8px;
+        line-height: 1.5rem;
+        position: relative;
+    }
+
+    .copyright {
+        border: none;
+    }
+
+}

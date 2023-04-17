@@ -1,0 +1,53 @@
+.nav-container{
+    background-color: rgb(22, 21, 21);
+    
+    display: flex;
+    padding: 20px;
+    justify-content: normal;
+    align-items: center;
+}
+
+.website-logo{
+
+    height: 40px;
+    margin-left: 120px;
+    margin-right: 40px;
+}
+
+
+.link-container{
+   
+    margin-left: 200px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: large;
+    
+    
+}
+
+.svg-account-icon{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 2.25rem;
+    line-height: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(189, 189, 189);
+    
+    
+   margin-left : 20px;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins&family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+    
+}
+
+.container-hiring{
+
+    background-color: rgba(0,169,217,.06);
+    margin: auto;
+    padding: 2.2rem 0;
+}
+
+
+.heading{
+    font-size: 3.8rem;
+    font-weight: 500;
+    line-height: 95px;
+    padding: 0 0 0 40px;
+}
+
+.paragraph {
+    color: #002b36;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 40px;
+    padding: 0 48px 48px;
+    text-align: left;
+}
+
+.hiring-card-ui{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+@media screen and (max-width: 426px) {
+
+
+    .heading {
+        font-size: 25px;
+        line-height: normal;
+        margin: 0 0 10px;}
+
+
+    .texthire {
+            line-height: 20px!important;
+            font-size: 12px!important;   } 
+
+}
+
+@media screen and (max-width: 1023px) {
+    .heading {
+        font-size: 45px;
+    }
+
+}
+
