@@ -98,12 +98,14 @@ p {
 
 
 .footericon {
-    color: #fff;
+    color: black;
     margin: 10% 1.3%;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
 }
+
+
 
 
 
@@ -141,12 +143,24 @@ button:not(:disabled) {
 
 
 
-.sub-footer{
-    display: flex ;
-    flex-direction: block;
-    
-    padding: 10px;
-}
+
+.copyright {
+        border-top: 2px solid grey;
+        font-weight: 300;
+        margin-top: 3%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+
+    .subfooter-con{
+        display: block;
+    }
+    .subfooter{
+
+        display: block;
+        font-size: 1.3rem;
+    }
 
 
 

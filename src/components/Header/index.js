@@ -27,7 +27,13 @@ const Header = () => {
 
             </div>
 
-            <a href="#http://gogle.com/"><AccountCircleIcon  className='svg-account-icon'/></a>
+            <div className='svg-icon '>
+                <a href="#http://gogle.com/"><AccountCircleIcon style={{ fontSize: 48 }}/></a>
+            </div>
+
+   
+
+            
             
                 
 
